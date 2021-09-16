@@ -1,0 +1,49 @@
+/* Responsive */
+
+@media(max-width: 760px) {
+    
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        font-size: 19px;
+        padding-top: 5px;
+    }
+
+    .navbar ul li a {
+        padding: 10px;
+    }
+
+    .navbar ul.show {
+        display: flex;
+    }
+
+    .navbar a:hover {
+        border-bottom: none;
+    }
+
+    
+
+    .hamburger {
+        display: block;
+        right: 15px;
+        padding-top: 5px;
+    }
+    
+    .navbar{
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+
+    .hero .content h1 {
+        font-size: 30px;
+        margin-top: 78px;
+        margin-bottom: 10px;
+        }
+}
